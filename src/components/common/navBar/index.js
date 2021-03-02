@@ -18,9 +18,9 @@ function NavBar({ searchVisible, data, setData }) {
           </NavLink>
         </div>
         <Link to="/myprofile/inventory">Inventory</Link>
-        <Link to="/">Orders</Link>
-        <Link to="/">Payment</Link>
-        <Link to="/">Messages</Link>
+        <Link>Orders</Link>
+        <Link>Payment</Link>
+        <Link>Messages</Link>
       </div>
     </div>
   );
